@@ -10,14 +10,14 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class JsonplaceholderGETTwoTest {
-    private final String Base_URL = "https://jsonplaceholder.typicode.com/users";
+    private final String BASE_URL = "https://jsonplaceholder.typicode.com/users";
 
     @Test
     public void jsonplaceholderReadAllUsers() {
 
         Response response = given()
                 .when()
-                .get(Base_URL)
+                .get(BASE_URL)
                 .then()
                 .statusCode(200)
                 .extract()
@@ -32,7 +32,7 @@ public class JsonplaceholderGETTwoTest {
     public void jsonplaceholderReadOneUser() {
         given()
                 .when()
-                .get(Base_URL+"/1")
+                .get(BASE_URL+"/1")
                 .then()
                 .statusCode(200)
                 .body("name", equalTo("Leanne Graham"))
@@ -48,7 +48,7 @@ public class JsonplaceholderGETTwoTest {
 
         Response response = given()
                 .when()
-                .get(Base_URL+"/2")
+                .get(BASE_URL+"/2")
                 .then()
                 .statusCode(200)
                 .extract()
@@ -68,7 +68,7 @@ public class JsonplaceholderGETTwoTest {
         Response response = given()
                 .pathParam("userId", 1)
                 .when()
-                .get(Base_URL+"/" +"{userId}");
+                .get(BASE_URL+"/" +"{userId}");
 
         JsonPath json = response.jsonPath();
         System.out.println(response.asString());
@@ -84,7 +84,7 @@ public class JsonplaceholderGETTwoTest {
         Response response = given()
                 .queryParam("username", "Bret")
                 .when()
-                .get(Base_URL);
+                .get(BASE_URL);
 
         assertEquals(200, response.statusCode());
         JsonPath json = response.jsonPath();

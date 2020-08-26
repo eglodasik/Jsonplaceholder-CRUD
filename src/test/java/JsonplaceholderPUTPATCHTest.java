@@ -2,7 +2,6 @@ import com.github.javafaker.Faker;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class JsonplaceholderPUTPATCHTest {
 
     private static Faker faker;
-    private String fakeeamil;
+    private String fakeEmail;
 
     @BeforeAll
     public static void beforeAll(){
@@ -23,27 +22,24 @@ public class JsonplaceholderPUTPATCHTest {
     @BeforeEach
     public void beforeEach(){
 
-        fakeeamil = faker.internet().emailAddress();
-
+        fakeEmail = faker.internet().emailAddress();
 
     }
 
     @Test
     public void JsonplaceholderPUTTest(){
 
-
-        String fakename = faker.name().name();
-        String fakeusername = faker.name().username();
-        String fakephone = faker.phoneNumber().phoneNumber();
-        String fakewebsite = faker.internet().url();
-
+        String fakeName = faker.name().name();
+        String fakeUsername = faker.name().username();
+        String fakePhone = faker.phoneNumber().phoneNumber();
+        String fakeWebsite = faker.internet().url();
 
         JSONObject user = new JSONObject();
-        user.put("name", fakename);
-        user.put("username", fakeusername);
-        user.put("email", fakeeamil);
-        user.put("phone", fakephone);
-        user.put("website", fakewebsite);
+        user.put("name", fakeName);
+        user.put("username", fakeUsername);
+        user.put("email", fakeEmail);
+        user.put("phone", fakePhone);
+        user.put("website", fakeWebsite);
 
 
         JSONObject geo = new JSONObject();
@@ -80,9 +76,9 @@ public class JsonplaceholderPUTPATCHTest {
 
         JsonPath json = response.jsonPath();
 
-        assertEquals(fakename, json.get("name"));
-        assertEquals(fakeusername, json.get("username"));
-        assertEquals(fakeeamil, json.get("email"));
+        assertEquals(fakeName, json.get("name"));
+        assertEquals(fakeUsername, json.get("username"));
+        assertEquals(fakeEmail, json.get("email"));
 
     }
 
