@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b44cedd-59ad-4ff7-b409-629aa5fe9ca6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderDELETETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderDELETETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTwoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderPOSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPOSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderPUTPATCHTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPUTPATCHTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderDELETETest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderDELETETest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTwoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTwoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderPOSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderPOSTTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderPUTPATCHTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderPUTPATCHTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,27 +143,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="563" y="139" key="#JsonplaceholderPUTPATCHTest" timestamp="1598470981037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="563" y="139" key="#JsonplaceholderPUTPATCHTest/0.0.1920.1040@0.0.1920.1040" timestamp="1598470981037" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1598471023815">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1598471109289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598471023815" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1598471023815">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598471109289" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1598471109289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598471023815" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1598471023815">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598471109289" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1598471109289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598471023815" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1598471023815">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598471109289" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1598471109289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598471023815" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598471109289" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1598469592719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
